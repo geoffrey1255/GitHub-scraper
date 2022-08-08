@@ -1,0 +1,33 @@
+<title>Assignment 3</title>
+<h1>Total number of the collected repositories</h1>
+<h2>Python: {{pycount}}</h2>		
+<h2>Java: {{jvcount}}</h2>
+<h2>Javascript: {{jscount}}</h2>
+<h1>Number of the collected repositories with changes pushed during the last 60 seconds</h1>
+<img src={{url}} height="auto" width="50%">
+<h1>Average number of stars</h1>
+<img src={{urp}} height="auto" width="50%">
+<meta http-equiv="refresh" content="60" >
+<h1> Top-10 most frequent words</h1>
+<h2>Python: </h2>
+<ol>
+
+{% for py_list, py_c in jnjpy %}
+	<li>{{py_list}},	{{py_c}}</li>
+{% endfor %}
+
+</ol>
+
+<h2>Java: </h2>
+<ol>
+{% for jv_list, jv_c in jnjjv%}
+	<li>{{jv_list}},	{{jv_c}}</li>
+{% endfor %}
+</ol>
+
+<h2>JavaScript: </h2>
+<ol>
+{% for js_list, js_c in jnjjs%}
+	<li>{{js_list}},	{{js_c}}</li>
+{% endfor %}
+</ol>

@@ -1,0 +1,7 @@
+1649697360:1649704560
+Python:104:1726.1
+Java:57:2945.7
+JavaScript:31:750.6
+Python:(language,78),(and,75),(a,67),(the61),(of,50),(to,46),(is,46),(programming,41),(from,40),(languages,37)
+Java:(for,42),(language,29),(the,22),(and,18),(in,16),(programming,14),(a,12),(or,12),(Language,10),(languages,9)
+JavaScript:(language,15),(the,14),(for,12),(of,10),(to,9),(The,8),(Language,8),(programming,7),(and,7),(a,6)
