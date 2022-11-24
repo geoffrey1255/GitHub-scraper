@@ -47,7 +47,7 @@ services:
   data-source:
     image: eecs4415/python
     environment:
-      - TOKEN=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 
+      - TOKEN="ghp_replace your token here with no quotes"
     volumes:
       - ./:/streaming
     command: python3.9 -u streaming/data_source.py
